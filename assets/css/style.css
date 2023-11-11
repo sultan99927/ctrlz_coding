@@ -12,13 +12,9 @@
 body {
   
   font-family: "Open Sans", sans-serif;
-  overflow-x: hidden;
-
-  color: #444444;
-}
+   }
 
 a {
-font-family: "Poppins";
   color: #5846f9;
   text-decoration: none;
 }
@@ -111,9 +107,6 @@ h6 {
 # Disable aos animation delay on mobile devices
 --------------------------------------------------------------*/
 @media screen and (max-width: 768px) {
-  body{
-    overflow-x: hidden;
-  }
   [data-aos-delay] {
     transition-delay: 0 !important;
   }
@@ -125,6 +118,11 @@ h6 {
 #header {
   transition: all 0.5s;
   padding: 20px 0;
+}
+#header.header-scrolled,
+#header.header-inner-pages {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 12px 0;
 }
 #header .logo {
   font-size: 32px;
@@ -446,11 +444,11 @@ h6 {
 
 #hero .btn-get-started {
   font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
+  font-weight: 600;
+  font-size: 20px;
   letter-spacing: 1px;
   display: inline-block;
-  padding: 10px 28px;
+  padding: 10px 32px;
   border-radius: 5px;
   transition: 0.5s;
   margin-top: 30px;
@@ -583,11 +581,11 @@ section {
 --------------------------------------------------------------*/
 .counts {
   
-  padding: 70px 0 70px;
+  padding: 70px 0 60px;
 }
 
 .counts .count-box {
-  backdrop-filter: blur(3rem);
+  backdrop-filter: blur(2rem);
   z-index: 2;
   display: flex;
   align-items: center;
@@ -1400,7 +1398,6 @@ section {
 /* ______________Glass__________ */
 .Glass{
   max-height: 85vh;
-  margin: 50px;
   background: white;
   background: linear-gradient(
   to right bottom,
@@ -1453,7 +1450,7 @@ section {
 }
 .circleblue2{
   top:  140%;
-  left: 50%;
+  left: 20%;
 }
 .circleblue3{
   top:  80%;
@@ -1538,3 +1535,9 @@ section {
   left: 15%;
 }
 /* _______________ */
+.center{
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
