@@ -287,7 +287,7 @@ h6 {
 
 @media (max-width: 1366px) {
   .navbar .dropdown .dropdown ul {
-    left: -90%;
+    left: -100%;
   }
 
   .navbar .dropdown .dropdown:hover>ul {
