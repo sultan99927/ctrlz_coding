@@ -417,7 +417,7 @@ h6 {
 
 #hero .container,
 #hero .container-fluid {
-  padding-top: 84px;
+/*   padding-top: 84px; */
 }
 
 #hero h1 {
@@ -1400,7 +1400,7 @@ section {
   z-index: 2;
   backdrop-filter: blur(2rem);
   box-shadow: 0 0 30px rgba(214, 215, 216, 100%);
-  width: 93%;
+  width: 100%;
   display: flex;
 }
 .circleblue1,
